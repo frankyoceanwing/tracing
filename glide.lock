@@ -1,0 +1,10 @@
+hash: 2ab43a89c4f3271ca479e40781337f94cd73ba60cb4c7b9f36fa39dae48a9c26
+updated: 2017-02-09T17:59:18.943622003+08:00
+imports:
+- name: github.com/opentracing/opentracing-go
+  version: 6edb48674bd9467b8e91fda004f2bd7202d60ce4
+  subpackages:
+  - ext
+- name: github.com/openzipkin/zipkin-go-opentracing
+  version: 594640b9ef7e5c994e8d9499359d693c032d738c
+testImports: []

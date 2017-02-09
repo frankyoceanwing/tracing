@@ -1,0 +1,8 @@
+package: github.com/frankyoceanwing/tracing
+import:
+- package: github.com/opentracing/opentracing-go
+  version: v1.0.1
+  subpackages:
+  - ext
+- package: github.com/openzipkin/zipkin-go-opentracing
+  version: v0.2.2
