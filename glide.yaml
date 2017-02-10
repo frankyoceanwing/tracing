@@ -9,3 +9,11 @@ import:
 - package: sourcegraph.com/sourcegraph/appdash
   subpackages:
   - cmd/...
+- package: github.com/codegangsta/negroni
+  version: v0.2.0
+- package: github.com/gorilla/context
+  version: v1.1
+- package: github.com/gorilla/mux
+  version: v1.3.0
+- package: sourcegraph.com/sourcegraph/appdash-data
+- package: github.com/opentracing/basictracer-go

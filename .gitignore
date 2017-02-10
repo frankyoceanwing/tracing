@@ -27,3 +27,5 @@ vendor
 
 zipkin.jar
 zipkin/zipkin
+
+appdash/appdash
