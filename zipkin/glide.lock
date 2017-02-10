@@ -1,8 +1,8 @@
-hash: b3436a3ddbf1f38a260fed3208a0e0903a3511c80032121c78a8b03fb3ff6f76
-updated: 2017-02-10T14:27:01.774045+08:00
+hash: 2ab43a89c4f3271ca479e40781337f94cd73ba60cb4c7b9f36fa39dae48a9c26
+updated: 2017-02-09T20:02:58.650909585+08:00
 imports:
 - name: github.com/apache/thrift
-  version: 3590f1e7ca49c3eea879008d510023edf30b6408
+  version: 9019b280eacf0c2cf02d7671a59a9f099b82aa88
   subpackages:
   - lib/go/thrift
 - name: github.com/davecgh/go-spew
@@ -51,13 +51,9 @@ imports:
 - name: github.com/rcrowley/go-metrics
   version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
 - name: github.com/Shopify/sarama
-  version: 1416bd78f804d523005322194994f08c2a0ad797
+  version: 710213ef0a88e3314629cd5203b2ccd3510946c4
 - name: golang.org/x/net
-  version: a689eb3bc4b53af70390acc3cf68c9f549b6b8d6
+  version: 236b8f043b920452504e263bc21d354427127473
   subpackages:
   - context
-- name: sourcegraph.com/sourcegraph/appdash
-  version: 5b9b70908c0e32b53e17215ee6e9515b02ad08b2
-  subpackages:
-  - cmd/...
 testImports: []

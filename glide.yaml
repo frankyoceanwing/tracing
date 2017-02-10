@@ -6,3 +6,6 @@ import:
   - ext
 - package: github.com/openzipkin/zipkin-go-opentracing
   version: v0.2.2
+- package: sourcegraph.com/sourcegraph/appdash
+  subpackages:
+  - cmd/...
