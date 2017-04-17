@@ -18,3 +18,9 @@ import:
 - package: sourcegraph.com/sourcegraph/appdash-data
 - package: github.com/opentracing/basictracer-go
 - package: github.com/uber/jaeger
+- package: github.com/uber/jaeger-client-go
+  version: v2.6.0
+- package: github.com/uber/jaeger-lib
+  subpackages:
+  - metrics
+- package: github.com/codahale/hdrhistogram

@@ -24,10 +24,12 @@ func startSpan(w http.ResponseWriter, r *http.Request) opentracing.Span {
 		opentracing.HTTPHeadersCarrier(r.Header))
 	if err == nil {
 		// join the trace
+		fmt.Printf("join: %v\n", r.Header)
 		span = opentracing.StartSpan(operationName, opentracing.ChildOf(spanContext))
 		span.LogEventWithPayload("join span", operationName)
 	} else {
 		// or start a new span
+		fmt.Printf("start: %v\n", r.Header)
 		span = opentracing.StartSpan(operationName)
 		span.LogEventWithPayload("start span", operationName)
 	}
