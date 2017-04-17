@@ -17,3 +17,4 @@ import:
   version: v1.3.0
 - package: sourcegraph.com/sourcegraph/appdash-data
 - package: github.com/opentracing/basictracer-go
+- package: github.com/uber/jaeger

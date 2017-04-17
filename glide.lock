@@ -1,5 +1,5 @@
-hash: b33d3c39cc35d58c6a46b2e5f95c3fe886efe6ff60c636c34b735368b7f09066
-updated: 2017-02-10T16:21:53.836115205+08:00
+hash: 4eb61828c88357c5f3c24dfd42610acea2db8f74b85c8f2c4073f7ecbdbe9486
+updated: 2017-02-10T17:16:54.635584573+08:00
 imports:
 - name: github.com/apache/thrift
   version: 3590f1e7ca49c3eea879008d510023edf30b6408
@@ -63,6 +63,8 @@ imports:
   version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
 - name: github.com/Shopify/sarama
   version: 1416bd78f804d523005322194994f08c2a0ad797
+- name: github.com/uber/jaeger
+  version: c0b80a27c9be9793067752ea8ce0f6d76857310e
 - name: golang.org/x/net
   version: a689eb3bc4b53af70390acc3cf68c9f549b6b8d6
   subpackages:

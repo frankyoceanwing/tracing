@@ -29,3 +29,5 @@ zipkin.jar
 zipkin/zipkin
 
 appdash/appdash
+
+jaeger/jaeger

@@ -1,0 +1,10 @@
+package: github.com/frankyoceanwing/tracing/jaeger
+import:
+- package: github.com/uber/jaeger-client-go
+  version: v2.6.0
+- package: github.com/opentracing/opentracing-go
+  version: v1.0.1
+- package: github.com/uber/jaeger-lib
+  subpackages:
+  - metrics
+- package: github.com/codahale/hdrhistogram
